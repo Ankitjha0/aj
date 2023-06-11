@@ -1,0 +1,73 @@
+import turtle
+
+# Set up the turtle screen
+screen = turtle.Screen()
+screen.setup(800, 600)
+screen.bgcolor('white')
+
+# Create a turtle object
+shiva = turtle.Turtle()
+shiva.speed(3)
+shiva.color('blue')
+
+# Draw Nandi
+shiva.penup()
+shiva.goto(-100, -100)
+shiva.pendown()
+shiva.forward(200)
+shiva.right(90)
+shiva.forward(50)
+shiva.right(90)
+shiva.forward(100)
+shiva.right(90)
+shiva.forward(50)
+shiva.right(90)
+shiva.forward(100)
+
+# Draw Lord Shiva
+shiva.penup()
+shiva.goto(0, 0)
+shiva.pendown()
+shiva.circle(50)
+shiva.penup()
+shiva.goto(-20, 0)
+shiva.pendown()
+shiva.circle(70)
+shiva.penup()
+shiva.goto(-50, 80)
+shiva.pendown()
+shiva.circle(10)
+shiva.penup()
+shiva.goto(-30, 120)
+shiva.pendown()
+shiva.circle(10)
+shiva.penup()
+shiva.goto(-10, 140)
+shiva.pendown()
+shiva.circle(10)
+shiva.penup()
+shiva.goto(30, 140)
+shiva.pendown()
+shiva.circle(10)
+shiva.penup()
+shiva.goto(50, 120)
+shiva.pendown()
+shiva.circle(10)
+shiva.penup()
+shiva.goto(70, 80)
+shiva.pendown()
+shiva.circle(10)
+shiva.penup()
+shiva.goto(0, -70)
+shiva.pendown()
+shiva.circle(30)
+shiva.penup()
+shiva.goto(0, -100)
+shiva.pendown()
+shiva.circle(60)
+
+# Hide the turtle
+shiva.hideturtle()
+
+# Exit on click
+turtle.done()
